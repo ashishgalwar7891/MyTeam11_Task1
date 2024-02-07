@@ -1,0 +1,23 @@
+.app-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #778ef5;
+  color: #000;
+}
+
+.app-header .left {
+  font-size: 20px;
+}
+
+.app-header .right button {
+  color: #000;
+}
+
+.app-header .right button:hover {
+  color: #ccc;
+}
